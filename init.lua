@@ -48,8 +48,13 @@ vim.opt.undofile = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+vim.opt.termguicolors = true
+vim.opt.background = 'dark'
+
 -- Keep signcolumn on by default
 vim.opt.signcolumn = 'yes'
+
+vim.opt.backspace = 'indent,eol,start'
 
 -- Decrease update time
 vim.opt.updatetime = 250
